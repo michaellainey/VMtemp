@@ -5,7 +5,7 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Print
+      - name: print
         run: echo "hello world!:"
-      - name: Print end
+      - name: print end
         run: echo "end of the file:"
