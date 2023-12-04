@@ -1,4 +1,4 @@
----
+
 name: acs730workflow
 on: workflow_dispatch
 jobs:
@@ -8,4 +8,4 @@ jobs:
       - name: print
         run: echo "hello world!:"
       - name: print end
-        run: echo "end of the file:"
+        run: echo "end of the file"
